@@ -15,7 +15,7 @@ navbar:
   right:
     - href: https://github.com/jshtulman1
       icon: fa-github
-    - href: www.linkedin.com/in/jshtulman1
+    - href: https://www.linkedin.com/in/jshtulman1
       icon: fa-linkedin
 output:
   html_document:
