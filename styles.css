@@ -1,0 +1,126 @@
+/* Typography */
+body {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 18px;
+  line-height: 1.75;
+  color: #222;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+
+code, pre {
+  font-family: 'Source Code Pro', monospace;
+}
+
+pre {
+  border-radius: 8px;
+  padding: 1em;
+}
+
+/* Navbar */
+.navbar {
+  font-weight: 600;
+}
+
+/* Links */
+a {
+  color: #0F766E;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0B5752;
+  text-decoration: underline;
+}
+
+/* Navbar accent color */
+.navbar-default,
+.navbar-inverse {
+  background-color: #0F766E;
+  border-color: #0F766E;
+}
+
+.navbar-default .navbar-brand,
+.navbar-inverse .navbar-brand,
+.navbar-default .navbar-nav > li > a,
+.navbar-inverse .navbar-nav > li > a {
+  color: #ffffff !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  color: #ffffff !important;
+  background-color: #0B5752 !important;
+}
+
+/* Section heading underline */
+h2 {
+  border-bottom: 2px solid #0F766E;
+  padding-bottom: 0.3em;
+}
+
+/* Rounded profile picture */
+.profile-column img {
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+}
+
+/* Project cards */
+.project-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-link:hover {
+  text-decoration: none;
+}
+
+.project-card {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  margin-bottom: 20px;
+}
+
+.project-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.project-card .panel-heading {
+  background-color: #f7f9fc;
+  border-bottom: 1px solid #e3e8ef;
+}
+
+.project-card .panel-title {
+  font-size: 1.15em;
+  font-weight: 700;
+  color: #222;
+}
+
+/* Social media icons */
+.social-icons {
+  margin-top: 1.5em;
+  font-size: 1.8em;
+}
+
+.social-icons a {
+  color: #0F766E;
+  margin-right: 0.6em;
+  transition: color 0.15s ease, transform 0.15s ease;
+  display: inline-block;
+}
+
+.social-icons a:hover {
+  color: #0B5752;
+  transform: translateY(-2px);
+  text-decoration: none;
+}

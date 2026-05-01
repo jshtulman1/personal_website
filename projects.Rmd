@@ -1,0 +1,34 @@
+---
+title: "Projects"
+---
+
+A few projects I've worked on during graduate school. Each card links to project documentation.
+<div class="row">
+
+<div class="col-sm-6">
+<a href="https://github.com/jshtulman1/fars_dashboard" class="project-link">
+<div class="panel panel-default project-card">
+<div class="panel-heading">
+<h3 class="panel-title">Project One Title</h3>
+</div>
+<div class="panel-body">
+<p>An interactive R Shiny dashboard that makes NHTSA's fatal traffic crash data easier to explore. Users can compare states with a choropleth map, view national and state level fatality rates, and break down the factors contributing to fatal crashes, supporting researchers and policy analysts working on traffic safety.</p>
+</div>
+</div>
+</a>
+</div>
+
+<div class="col-sm-6">
+<a href="https://github.com/jshtulman1/NHANES_CLUSTERING" class="project-link">
+<div class="panel panel-default project-card">
+<div class="panel-heading">
+<h3 class="panel-title">Project Two Title</h3>
+</div>
+<div class="panel-body">
+<p>A cluster analysis of National Health and Nutrition Examination Survey (NHANES) data to identify distinct phenotypes among adults with prediabetes, with the goal of informing more targeted prevention strategies.</p>
+</div>
+</div>
+</a>
+</div>
+
+</div>

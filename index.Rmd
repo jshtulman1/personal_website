@@ -1,0 +1,28 @@
+---
+title: "Welcome"
+---
+
+::: columns
+::: {.column width="35%" style="text-align: center; padding-right: 20px;" .profile-column}
+
+```{r, echo=FALSE, fig.align='center', out.width='100%'}
+knitr::include_graphics("images/profilejpeg.jpeg")
+```
+
+:::
+
+::: {.column width="65%" style="text-align: left;"}
+
+## Hi, I'm Jacob
+
+I'm an MPH student at Emory's Rollins School of Public Health. My research is grounded in a commitment to meeting people where they are, whether through fieldwork or applying modern technology to make care more accessible. My experience includes analyzing SDOH data at the CDC, identifying prediabetes phenotypes from NHANES, observing seatbelt use across rural Georgia, and contributing to a culturally tailored AI chatbot for diabetes prevention. Before graduate school, I spent four years coordinating outpatient surgeries and home health intake, experience that grounded me in both the operational challenges of healthcare and how patients navigate the system during the most difficult moments of their lives.
+Take a look at my [projects](projects.html) or my [CV](cv.html).
+
+<div class="social-icons">
+  <a href="https://github.com/jshtulman1" title="GitHub"><i class="fa fa-github"></i></a>
+  <a href="https://www.linkedin.com/in/jshtulman1" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+  <a href="mailto:jacob.shtulman@emory.edu" title="Email"><i class="fa fa-envelope"></i></a>
+</div>
+
+:::
+:::

@@ -1,0 +1,25 @@
+name: "my-website"
+output_dir: docs
+navbar:
+  title: "Jacob Shtulman | Epidemiologist | Data Scientist"
+  left:
+    - text: Home
+      href: index.html
+      icon: fa-home
+    - text: Projects
+      href: projects.html
+      icon: fa-code
+    - text: CV
+      href: cv.html
+      icon: fa-paperclip
+  right:
+    - href: https://github.com/jshtulman1
+      icon: fa-github
+    - href: www.linkedin.com/in/jshtulman1
+      icon: fa-linkedin
+output:
+  html_document:
+    theme: yeti
+    css: styles.css
+    includes:
+      in_header: header.html
